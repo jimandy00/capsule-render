@@ -4,10 +4,32 @@
   <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html)">
      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/>
   </a>
-  <a href="#demo">
-    <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&style=for-the-badge&&logoColor=white"/>
-  </a>
 </p>
+
+## ✨ 프로젝트 주제 및 목표
+
+---
+
+- 멋쟁이 사자처럼 백엔드 스쿨 2기에서 배웠던 내용을 토대로 팀 프로젝트 진행
+- 공통의 버킷리스트를 주제로 멤버를 모집하고 참여, 후기를 작성하는 Bucketlist 사이트 구현
+
+
+## 개발환경
+
+---
+
+- JAVA 17
+- Build : Gradle 6.8
+- Framework : SpringBoot 3.0.1
+- DB : MySql 8.0
+- Server : AWS EC2
+- Deploy : Docker
+- CI&CD : GitLab
+- IDE : Intellij Ultimate
+
+
+
+
 
 ## Navigation
 1. [How to Use](#how-to-use)
