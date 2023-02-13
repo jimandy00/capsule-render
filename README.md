@@ -4,9 +4,9 @@
   <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html)">
      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/>
   </a>
-    <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html](https://ringed-suggestion-46f.notion.site/ceff928e9f1f4e2482f07387b997f593)">
-     <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
-  </a>
+    <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
+      <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
+    </a>
 </p>
 
 
