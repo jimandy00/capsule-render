@@ -4,6 +4,9 @@
   <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html)">
      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/>
   </a>
+    <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html](https://ringed-suggestion-46f.notion.site/ceff928e9f1f4e2482f07387b997f593)">
+     <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
+  </a>
 </p>
 
 
@@ -80,8 +83,55 @@ dependencies {
 }
 ```
 
+
+
 ## ERD
-![erd01](/uploads/d90016f04db5451064cea7af4b25192c/erd01.png)
+![erd01](https://user-images.githubusercontent.com/114675855/218395176-3862b71f-cfdb-4c14-8fc3-b40150f780c1.png)
+
+
+
+## 체크리스트
+- [ ]  주제 선정
+    - 공통의 `버킷리스트` 를 주제로 멤버를 모집하는 서비스
+- [ ]  상세 기능
+    - 게시글
+        - 폼을 통해 버킷리스트를 작성하고 날짜, 지도, 이미지 추가가 가능하다.
+        - 버킷리스트 게시글에서 댓글과 대댓글, 참가 신청이 가능하다.
+        - 호스트는 참가 신청서를 보고 참가자를 선택할 수 있다.
+        - 참가 인원이 달성되거나 모집기간이 만료되면 해당 게시글에 참여 신청이 마감된다.
+        - 버킷리스트 이행이 완료되면 참가자와 버킷리스트에 대한 평점을 작성할 수 있다.
+    - 채팅방
+        - 참여 승인을 받은 버킷리스트의 모집기간이 만료되면 자동으로 생성된다.
+        - 채팅방 나가기 기능과 강퇴 기능이 있다.
+    - 마이피드
+        - 본인만 확인 가능하다.
+        - 작성, 좋아요, 신청, 승낙, 완료한 버킷리스트가 출력된다.
+    - 프로필
+        - 본인 외 로그인하지 않은 사용자까지 확인 가능하다.
+        - 프로필 사진, 이메일, 평점, 리뷰가 출력된다.
+        - 프로필 사진은 프로필 주인일 경우만 수정이 가능하다.
+        - 프로필 주인의 평점과 리뷰를 확인할 수 있다.
+
+[] 서버 띄우기, 배포 자동화
+[] ERD 제작
+[] 회원가입, 로그인 기능 구현
+[] 게시글, 리뷰기능 구현
+[] 지도 API 적용
+[] 채팅 구현
+[] 댓글 구현
+[] 버킷리스트 신청/신청서 기능
+[] 알람 구현
+[] 좋아요, 마이피드 구현
+[] 유저평가, 프로필 기능 구현
+[] 테스트 코드 작성
+[] 버킷리스트 검색/필터링 구현
+[] 결제/멤버쉽 구현
+[] 관리자 구현
+[] 개인정보 약관
+[] 번역
+[] UI
+
+
 
 
 
