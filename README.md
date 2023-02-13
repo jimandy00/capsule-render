@@ -1,4 +1,4 @@
-![Bucketlist](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+![Bucketlist](https://www.ourbucketlist.link?type=waving&height=200&text=Bucketlist!&fontAlign=80&fontAlignY=40&color=gradient)
 <p align='center'> Web(We arE Best) : 최수정(PM), 정재현(CTO), 고관운, 박은빈, 배지원, 변지환 </p>
 <p align='center'>
   <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html)">
