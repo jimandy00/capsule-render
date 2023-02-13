@@ -1,10 +1,8 @@
-![Bucketlist](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient&desc=WEB(We%20arE%20Best)%20:%20최수정%20|%20정재현%20|%20고관운%20|%20박은빈%20|%20배지원%20|%20변지환)
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=capsule%20render&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Decorate%20GitHub%20Profile%20or%20any%20Repo%20like%20me!&descAlignY=51&descAlign=62)
-<p align='center'> Decorate GitHub Profile or any Repo like me! </p>
+![Bucketlist](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+<p align='center'> Web(We arE Best) : 최수정(PM), 정재현(CTO), 고관운, 박은빈, 배지원, 변지환 </p>
 <p align='center'>
-  <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
-    <img src="https://img.shields.io/badge/IDEA%20ISSUE%20-%23F7DF1E.svg?&style=for-the-badge&&logoColor=white"/>
+  <a href="[https://github.com/kyechan99/capsule-render/labels/Idea](http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html)">
+     <img src="https://img.shields.io/badge/Swagger-#85EA2D?style=flat&logo=Swagger&logoColor=white"/>
   </a>
   <a href="#demo">
     <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&style=for-the-badge&&logoColor=white"/>
