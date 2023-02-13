@@ -8,13 +8,13 @@
 
 
 ## 프로젝트 주제 및 목표
----
+
 - 멋쟁이 사자처럼 백엔드 스쿨 2기에서 배웠던 내용을 토대로 팀 프로젝트 진행
 - 공통의 버킷리스트를 주제로 멤버를 모집하고 참여, 후기를 작성하는 Bucketlist 사이트 구현
 
 
-## 개발환경
----
+## 개발환경 (badge로 할까?)
+
 - JAVA 17
 - Build : Gradle 6.8
 - Framework : SpringBoot 3.0.1
@@ -24,6 +24,61 @@
 - CI&CD : GitLab
 - IDE : Intellij Ultimate
 
+### 라이브러리
+```java
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework:spring-messaging:6.0.3'
+    implementation group: 'org.springframework.security', name: 'spring-security-messaging', version: '6.0.1'
+
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.security:spring-security-test'
+    // swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+
+    //SNS로그인을 위한 의존성
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client:3.0.1'
+    implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
+
+    //== 이메일 인증을 위한 의존성 시작 ==//
+    implementation 'org.springframework.boot:spring-boot-starter-mail:3.0.1'
+    //== 이메일 인증을 위한 의존성 끝 ==//
+
+    //chat 관련 의존성
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.10'
+    implementation 'org.webjars:sockjs-client:1.5.1'
+    implementation 'org.webjars:stomp-websocket:2.3.4'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.14.1'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:3.0.1'
+
+    //querydsl(스프링 부트 3.0 이상)
+    implementation 'com.querydsl:querydsl-jpa:5.0.0:jakarta'
+    annotationProcessor "com.querydsl:querydsl-apt:${dependencyManagement.importedProperties['querydsl.version']}:jakarta"
+    annotationProcessor "jakarta.annotation:jakarta.annotation-api"
+    annotationProcessor "jakarta.persistence:jakarta.persistence-api"
+
+    // test에서 사용할 springframework 라이브러리 의존시킴
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testCompileOnly 'org.projectlombok:lombok:1.18.12' // 테스트 의존성 추가
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12' // 테스트 의존성 추가
+
+    // 캐싱 사용하기 위한 의존성
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
+
+    // Image 추가를 위한 스프링 클라우드 의존성 추가
+    implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
+
+}
+```
 
 
 
