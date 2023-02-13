@@ -7,7 +7,7 @@
   <a href="https://ringed-suggestion-46f.notion.site/ceff928e9f1f4e2482f07387b997f593">
       <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
     </a>
-  <a href="https://img.shields.io/badge/link-bucketlist-green"></a>
+  https://img.shields.io/badge/link-bucketlist-green
 </p>
 
 
