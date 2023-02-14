@@ -35,16 +35,27 @@
 
 [endpoint](https://www.notion.so/endpoint-681884ecf7fe4f37b658c5fcbb1a6ed3)
 
-## 개발환경(badge로꾸며버릴지도몰라)
+## 개발환경
 
 - JAVA 17
 - Build : Gradle 6.8
-- Framework : SpringBoot 3.0.1 (JPA, Query DSL), Spring security(Email, OAuth)
-- DB : MySql 8.0, AWS RDB
+- DB : MySql 8.0, AWS RDS
 - Server : AWS EC2, S3, Docker
 - CI&CD : GitLab
 - IDE : Intellij Ultimate
 - Front-End : JS, HTML, CSS, JQuery, Axios
+
+## 개발환경(꾸민.ver)
+
+- JAVA 17
+- Build : <img src="https://img.shields.io/badge/Gradle 6.8-02303A?style=flat-square&logo=Gradle&logoColor=white"/>
+- Framework : <img src="https://img.shields.io/badge/Spring Boot 3.0.1 (JPA, Query DSL)-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>, <img src="https://img.shields.io/badge/Spring Security(Email, OAuth)-6DB33F?style=flat-square&logo=Spring Security&logoColor=white"/>
+- DB : <img src="https://img.shields.io/badge/MySQL 8.0-4479A1?style=flat-square&logo=MySql&logoColor=white"/>, <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat-square&logo=AWS RDS&logoColor=white"/>
+- Server : <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=MySql&logoColor=white"/>, <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>, <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon S3&logoColor=white"/>
+- CI&CD : <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=GitLab&logoColor=white"/>
+- IDE : <img src="https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/>
+- Front-End : <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>, <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>, <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>, <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/>, <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=white"/>
+
 
 ### 라이브러리
 
@@ -184,58 +195,52 @@ dependencies {
 
 ## UI 개발
 
-[템플릿](https://themes.iamabdus.com/star/2.2/index.html)
-
 - [ ]  홈
     - 홈 화면으로 이동하는 로고, 채팅방 회원가입, 로그인, 검색 기능이 포함된 헤더와 푸터
     - 회원가입, 로그인 모달
     - 홈화면 카테고리
     
-    ![screencapture-ourbucketlist-link-2023-02-14-15_06_49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9f3924f-c13c-49b8-bcf5-f29d1fc2c630/screencapture-ourbucketlist-link-2023-02-14-15_06_49.png)
-    
-    ![screencapture-ourbucketlist-link-2023-02-14-15_06_59.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ffd0ba61-8992-4635-90ff-5bcd498756cf/screencapture-ourbucketlist-link-2023-02-14-15_06_59.png)
+    ![screencapture-ourbucketlist-link-2023-02-14-15_06_49](https://user-images.githubusercontent.com/114675855/218782549-a43b957a-3256-4c55-8d24-0c3a4233c2da.png)
+
+    ![screencapture-ourbucketlist-link-2023-02-14-15_06_59](https://user-images.githubusercontent.com/114675855/218782554-356c766f-1dc7-46b6-b679-d4052bf47846.png)
     
 - [ ]  버킷리스트
     - 날짜, 가격 별로 필터링
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84c2c767-625a-46f9-99a0-b48fdf18d31a/Untitled.png)
+    ![버킷리스트](https://user-images.githubusercontent.com/114675855/218782894-b1c55173-5d2d-4551-b4c3-332e1a780521.jpg)
     
 - [ ]  포스트
     - 폼을 통한 게시글 작성
     - 제목, 일자, 위치 등 버킷리스트 정보, 지도, 사진
     - 버킷리스트 참가 신청, 댓글 작성
     
-    ![게시글 작성](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4169b27e-2012-4499-afcd-2287929eee88/screencapture-ourbucketlist-link-post-createform-2023-02-14-15_18_56.png)
-    
-    게시글 작성
-    
-    ![작성된 게시글](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/177689f0-5b61-49de-bcd4-360b990afe15/screencapture-ourbucketlist-link-post-88-2023-02-14-15_09_51.png)
-    
-    작성된 게시글
+    ![screencapture-ourbucketlist-link-post-createform-2023-02-14-15_18_56](https://user-images.githubusercontent.com/114675855/218782956-d12209aa-768e-40ba-bf4f-619a3e579085.png)
+
+    ![screencapture-ourbucketlist-link-post-88-2023-02-14-15_09_51](https://user-images.githubusercontent.com/114675855/218782968-ca07daa6-5411-46ec-9907-cad2292faba5.png)
     
 - [ ]  채팅
     - 버킷리스트 호스트와 참여자에게 자동 생성되는 채팅방
     
-    ![screencapture-ourbucketlist-link-chat-room-2023-02-14-16_19_20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/86ab2153-d691-427a-bdec-b5af7f3ff819/screencapture-ourbucketlist-link-chat-room-2023-02-14-16_19_20.png)
+    ![screencapture-ourbucketlist-link-chat-room-2023-02-14-16_19_20](https://user-images.githubusercontent.com/114675855/218783293-a93c5069-c424-456b-9168-996d7fa2d921.png)
     
 
 - [ ]  알람
     - 로그인하면 댓글, 게시물 상태에 따른 알림 확인 가능
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb04871e-180d-4150-b51c-3a25ea8d126e/Untitled.png)
+    ![알림 - 복사본](https://user-images.githubusercontent.com/114675855/218783323-f554b2df-f911-44e2-808f-d356d804577e.jpg)
     
 
 - [ ]  마이피드
     - 작성한, 좋아요한, 신청한, 승낙받은, 완료한 버킷리스트 확인
     
-    ![신청한 버킷리스트 클릭한 모습](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fb7847de-7123-4900-a1e6-dac58495b7e8/screencapture-ourbucketlist-link-my-2023-02-14-17_06_44.png)
+    ![screencapture-ourbucketlist-link-my-2023-02-14-17_06_44](https://user-images.githubusercontent.com/114675855/218783361-f4801887-e023-4c01-8a71-c54ca34737ef.png)
     
     신청한 버킷리스트 클릭한 모습
     
 - [ ]  마이페이지
     - 프로필 사진, 유저 이름, 유저 이메일, 평점, 리뷰 출력
     
-    ![screencapture-ourbucketlist-link-profile-19-2023-02-14-17_07_29.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1267dff3-05e2-45ac-b138-c71222e8b7e3/screencapture-ourbucketlist-link-profile-19-2023-02-14-17_07_29.png)
+    ![리뷰](https://user-images.githubusercontent.com/114675855/218783337-8df9e8e5-eac3-45b0-b897-bc8bc390bdfb.jpg)
     
 
 ## 개선해야할 부분
@@ -244,7 +249,7 @@ dependencies {
 
 | 회차 | 주소 |
 | --- | --- |
-| 1주차 | https://gitlab.com/S2uJeong1/bucketlist/-/tree/main/Weekly_Log @January 20, 2023 11:45 AM |
+| 1주차 | https://gitlab.com/S2uJeong1/bucketlist/-/tree/main/Weekly_Log |
 | 2주차 | https://gitlab.com/S2uJeong1/bucketlist/-/tree/main/Weekly_Log |
 | 3주차 | https://gitlab.com/S2uJeong1/bucketlist/-/blob/main/Weekly_Log/%5B3%EC%A3%BC%EC%B0%A8%5Didea_9%ED%8C%80_%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9_%EA%B3%B5%EC%9C%A0.md |
 | 4주차 | https://gitlab.com/S2uJeong1/bucketlist/-/blob/main/Weekly_Log/%5B4%EC%A3%BC%EC%B0%A8%5Didea_9%ED%8C%80_%EC%A7%84%ED%96%89%EC%83%81%ED%99%A9_%EA%B3%B5%EC%9C%A0.md |
