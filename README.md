@@ -1,16 +1,22 @@
-![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Bucketlist!&fontAlign=80&fontAlignY=40&color=gradient)
-<p align='center'> Web(We arE Best) : 최수정(PM), 정재현(CTO), 고관운, 박은빈, 배지원, 변지환 </p>
+<div align="center" style="width=800px">
+    ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Bucketlist!&fontAlign=80&fontAlignY=40&color=gradient)
+</div>
+
+<div align="center">
 <p align='center'>
-  <a href="http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html">
-     <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/>
-  </a>
-  <a href="https://ringed-suggestion-46f.notion.site/ceff928e9f1f4e2482f07387b997f593">
-      <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
-  </a>
+    <a href="http://ec2-13-125-143-78.ap-northeast-2.compute.amazonaws.com:8080/swagger-ui/index.html">
+     <img src="https://img.shields.io/badge/Bucketlist Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/>
+  </a> | 
+
   <a href="https://www.ourbucketlist.link">
     <img src="https://img.shields.io/badge/link-Bucketlist-green?logo=data">
+  </a> | 
+
+<a href="https://ringed-suggestion-46f.notion.site/ceff928e9f1f4e2482f07387b997f593">
+      <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/>
   </a>
 </p>
+</div>
 
 
 
@@ -19,17 +25,13 @@
 - 멋쟁이 사자처럼 백엔드 스쿨 2기에서 배웠던 내용을 토대로 팀 프로젝트 진행
 - 공통의 버킷리스트를 주제로 멤버를 모집하고 참여, 후기를 작성하는 Bucketlist 사이트 구현
 
-## 일정
+## WEB(We arE Best)
 
-| 날짜 | 일정 |
-| --- | --- |
-| 2023년 1월 13일 | 아이디어 회의 및 발표 |
-| 2023년 1월 17, 18일 | 프로젝트 문서화 작업 |
-| 2023년 2월 3일 | 멘토님 중간점검 |
-| 2023년 1월 19일 ~ 2월  12일 | 구현 |
-| 2023년 2월 13일 | 강사님 피드백 |
-| 2023년 2월 16일 | 발표 및 평가 |
-| 2023년 2월 17일 | 데모데이(수료) |
+- 최수정(PM)
+- 정재현(CTO)
+- 고관운
+- 박은빈
+- 배지원 변지환
 
 ## EndPoint
 
